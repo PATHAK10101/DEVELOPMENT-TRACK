@@ -1,0 +1,169 @@
+/* h2{
+    color:#ffa511;
+    text-align: center;
+    font-weight:900 ;
+    text-size-adjust: 55px;
+    letter-spacing: 2px;
+    line-height:1.5;
+    text-decoration: double teal underline;
+    text-transform:uppercase ;
+    font-family:league spartan;
+}
+button{
+    color: white;
+    background-color:blue;
+}
+
+div:nth-of-type(2){
+    color:#ffa511;
+    background-color: black;
+}
+
+*{
+    font-family: 'Courier New';
+}
+
+h1{
+    text-align: center;
+    color: #1b74e4 !important;
+    text-decoration-color: #1b74e4;
+    text-decoration-style: solid;
+}
+
+#login{
+    background-color: aqua;
+    text-decoration: black;
+}
+
+#register{
+    background-color: aqua;
+    text-decoration: black;
+}
+
+#search{
+    background-color: black;
+    text-decoration: white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+div.P{
+    text-align: justify;
+    height: 250px;
+    width: 700px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius:5px ;
+    background-color: beige;
+    border-color: aliceblue;
+} */
+
+/*CSS TRANSITIONS*/
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 100px;
+    margin-left: 200px;
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+    /* transform:rotate(90deg); */
+    /* transition:margin 2s ease-in-out 2ms; 
+     */
+/* }
+div:hover{
+    margin-top: 350px;
+    background-color:burlywood ;
+    transform:rotate(45deg);
+    transform:translate(-100px,100px);
+    transform:skew(10deg);   */
+    /* transform:scale(0.5) rotate(45deg) translate(-100px,100px) skew(10deg);use all in one
+} */ 
+
+/*BACKGROUND IMAGES PROPERTYS*/
+
+/* div{
+    height: 750px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 350px;
+    background-image:url(02d3f38be8063cf2bc07cc8c20f8dae8.jpg);
+    background-size:auto;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    margin:20px;
+    background-color: red;
+    text-align: center;
+    border: 3px solid black;
+    display: inline-block;
+} */
+/* #static{
+    background-color: aqua;
+    position:static;
+    left: 100px;
+    top: 100px;
+} */
+
+/* #RELATIVE{
+    background-color: aqua;
+    position:relative;
+    left: 100px;
+    top: 100px;
+} */
+
+/* #absolute{
+    background-color: aqua;
+    position:absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#fixed{
+    background-color: aqua;
+    position:fixed;
+    left: 100px;
+    top: 100px;
+} */
+
+
+ /* SMILE FACE CREATION  
+ 
+ #face{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 191, 0);
+    border-radius: 50%;
+    position:absolute;
+    left:100px;
+}
+
+#mouth{
+    height: 75px;
+    width: 200px;
+    background-color: rgb(255,0,0);
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    
+}
+
+#eye1,#eye2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0,0,0);
+    border-radius: 100%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#eye2{
+    top: 100px;
+    left: 250px;
+} */

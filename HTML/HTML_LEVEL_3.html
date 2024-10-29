@@ -1,0 +1,103 @@
+ <!-- -PRACTICE QUESTIONS
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MALES</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>FEMALES</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+ </body>
+ </html> -->
+
+ <!-- Forms in HTML -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CREATIN A SEARCH BAR</title>
+</head>
+<!-- SEARCH ENGINE -->
+<body>
+    <form action="https://www.google.com/search?">
+    <div>
+        <label for="search for videos">Search</label>
+        <input type="search for content" 
+        placeholder="search for content"
+        name ="q"/> 
+    <br>
+        <input type="checkbox" id="age" name="q"/>
+        <label for="age">YOU ARE 18+</label>
+    </br>
+
+    
+    <br>
+        <input type="radio" id="male" name="gender" value="male"/>
+        <label for="male">MALE</label>
+        <input type="radio" id="female" name="gender" value="female"/>
+        <label for="female">FEMALE</label>
+    <br>
+        <button type="submit">Search</button>
+        <button type="reset">Reset</button>
+    </br>
+    </div>
+    <hr>
+    <!-- SELECT BOX -->
+    <div>
+        Choose a Profession
+        <select name="Profession" id="Profession">
+            <option value="">Select</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Lawyer">Lawyer</option>
+        </select>
+    </div>
+    <hr>
+    
+    <!-- RANGE SLIDER -->
+    <div>
+        <label for="age">AGE</label>
+        <input type="range" name="AGE" id="age" value="18" min="18" max="100" step="2"/>
+        <button type="submit">Submit</button><br>
+        
+     
+        <!-- !-- TEXT AREA -->
+        <label for="feedback">Please provide your valuable feedback</label>
+        <textarea name="feedback" id="feedback" cols="50" rows="5" placeholder="Enter your feedback"></textarea>
+    </div>
+    
+
+
+    </form>   
+</body>
+
